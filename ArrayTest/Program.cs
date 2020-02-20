@@ -17,7 +17,7 @@ namespace ArrayTest
             int[] test = { 1, 2, 3, 4 };
 
             modifContenuSansRef(test);
-            Console.WriteLine(test[0]); // OK --> 99 le contenu du tableau est modifié
+            Console.WriteLine(test[0]); // OK --> 99 array is reference type
 
             //By default, all parameters are passed by value in C#. 
             //Parameters are only passed by reference if you explicitly include an out or ref modifier. 
@@ -50,6 +50,7 @@ namespace ArrayTest
             //This method allocates a new array with the specified size, copies elements from the old array 
             //to the new one, and then replaces the old array with the new one.array must be a one-dimensional array.
             Array.Resize(ref t, 8);
+            t[0] = -1;
         }
     }
 }

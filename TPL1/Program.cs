@@ -15,7 +15,7 @@ namespace TPL1
             var watch = Stopwatch.StartNew();
             DoLoop();
             Console.WriteLine($"It takes  { watch.ElapsedMilliseconds} miliseconds");
-            Console.ReadLine();
+            //Console.ReadLine();
 
             watch = Stopwatch.StartNew();
             DoLoop1();
