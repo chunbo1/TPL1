@@ -10,7 +10,7 @@ namespace ReverseString
     {
         static void Main(string[] args)
         {
-            string src = "abcde";
+            string src = "abcd";
             char[] arr = src.ToCharArray();
             Console.WriteLine(arr);
             ReverseString(arr);

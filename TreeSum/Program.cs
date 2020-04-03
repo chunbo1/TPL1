@@ -26,14 +26,16 @@ namespace TreeSum
             TreeNode t23 = new TreeNode(6);
             t0.left = t10;
             t0.right = t11;
-            //t10.left = t20;
-            //t10.right = t21;
-            //t11.left = t22;
-            //t11.right = t23;
+            t10.left = t20;
+            t10.right = t21;
+            t11.left = t22;
+            t11.right = t23;
 
-            TreeNode reverse = inverseBTree(t0);
-            bool res = hasPathSum(t0, 3);
+            //TreeNode reverse = inverseBTree(t0);
+            bool res1 = hasPathSum(t0, 6);
             Console.WriteLine();
+            bool res2 = haspathSum(t0, 9);
+
         }//Main
 
         static TreeNode inverseBTree(TreeNode root)
@@ -103,7 +105,7 @@ namespace TreeSum
         if the sum is 0 when you run out of tree.  
         */
 
-        public virtual bool haspathSum(TreeNode node,
+        public static bool haspathSum(TreeNode node,
                                        int sum)
         {
             if (node == null)
@@ -123,7 +125,7 @@ namespace TreeSum
                 }
                 if (node.left != null)
                 {
-                    ans = ans || haspathSum(node.left, subsum);
+                    ans = haspathSum(node.left, subsum);
                 }
                 if (node.right != null)
                 {

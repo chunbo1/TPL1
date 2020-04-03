@@ -17,9 +17,10 @@ namespace ConcurrentQueue1
 
             Task t1 = Task.Factory.StartNew(() =>
             {
-                for (int i = 0; i < 100; ++i)
+                for (int i = 0; i < 50; ++i)
                 {
                     coll.Enqueue(i);
+                    Console.WriteLine($"t1: {i}" );
                     Thread.Sleep(100);
                 }
             });
@@ -29,7 +30,7 @@ namespace ConcurrentQueue1
                 Thread.Sleep(900);
                 foreach (var item in coll)
                 {
-                    Console.WriteLine(item);
+                    Console.WriteLine("t2 " + item);
                     Thread.Sleep(150);
                 }
             });
