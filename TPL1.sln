@@ -29,7 +29,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "midNode", "midMode\midNode.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "isPalindrome", "isPalindrome\isPalindrome.csproj", "{40C36954-436C-4D71-A016-291685DC85CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeTowList", "MergeTowList\MergeTowList.csproj", "{3875BEE9-2373-47AD-A3F7-DAAC478FFEF7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeTwoList", "MergeTowList\MergeTwoList.csproj", "{3875BEE9-2373-47AD-A3F7-DAAC478FFEF7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseString", "ReverseString\ReverseString.csproj", "{47110E38-C3D6-47B8-8912-347DB73ACEB8}"
 EndProject
@@ -67,7 +67,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Graph_BFS", "Graph_BFS\Grap
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParseIntFromString", "ParseIntFromString\ParseIntFromString.csproj", "{9B97F963-D0EB-465E-BFFA-EEC253640088}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Point72", "Millinium\Point72.csproj", "{1CCC6736-C6FB-45C8-8C83-089450472D29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Point72", "Millinium\Point72.csproj", "{1CCC6736-C6FB-45C8-8C83-089450472D29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hackerCards", "ConsoleApp1\hackerCards.csproj", "{F5C50081-4BCB-44A0-94EA-58843C07AB5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amazon_numOfIsland_DFS", "Amazon\Amazon_numOfIsland_DFS.csproj", "{AB3EB366-FDC0-41CB-91AC-A36EFEC826A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amazon_subSequence", "DFS_cluster_count\Amazon_subSequence.csproj", "{2F346B32-FEE5-4C0E-8B18-46BDB0C49774}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpClientTest", "HttpClientTest\HttpClientTest.csproj", "{A66A592E-F55C-46E8-840C-F10DB1ECB3F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -207,6 +215,22 @@ Global
 		{1CCC6736-C6FB-45C8-8C83-089450472D29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CCC6736-C6FB-45C8-8C83-089450472D29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CCC6736-C6FB-45C8-8C83-089450472D29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5C50081-4BCB-44A0-94EA-58843C07AB5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5C50081-4BCB-44A0-94EA-58843C07AB5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5C50081-4BCB-44A0-94EA-58843C07AB5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5C50081-4BCB-44A0-94EA-58843C07AB5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB3EB366-FDC0-41CB-91AC-A36EFEC826A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB3EB366-FDC0-41CB-91AC-A36EFEC826A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB3EB366-FDC0-41CB-91AC-A36EFEC826A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB3EB366-FDC0-41CB-91AC-A36EFEC826A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F346B32-FEE5-4C0E-8B18-46BDB0C49774}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F346B32-FEE5-4C0E-8B18-46BDB0C49774}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F346B32-FEE5-4C0E-8B18-46BDB0C49774}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F346B32-FEE5-4C0E-8B18-46BDB0C49774}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A66A592E-F55C-46E8-840C-F10DB1ECB3F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A66A592E-F55C-46E8-840C-F10DB1ECB3F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A66A592E-F55C-46E8-840C-F10DB1ECB3F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A66A592E-F55C-46E8-840C-F10DB1ECB3F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

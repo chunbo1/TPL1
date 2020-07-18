@@ -32,10 +32,10 @@ class GFG
             {
                 if (i == 0 || w == 0)
                     K[i, w] = 0;
-                else if (wt[i] <= w)
-                    K[i, w] = Math.Max(val[i] + K[i - 1, w - wt[i]],
-                                    K[i - 1, w]);
-                else
+                else if (wt[i] <= w) 
+                    K[i, w] = Math.Max(val[i] + K[i - 1, w - wt[i]],   //include it
+                                    K[i - 1, w]);                      //exclude it
+                else //exclude it
                     K[i, w] = K[i - 1, w];
 
                 Console.WriteLine($"i={i} w={w}, K={K[i,w]}");
